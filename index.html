@@ -38,15 +38,15 @@
     </div>
 
     <div class="social-wrapper">
-      <p class="social-label">Find me</p>
+      <p class="social-label" >Find me</p>
       <div class="social-icons">
-        <a class="icon-btn" href="https://www.linkedin.com/in/chaimaa-farhane-850b44365/" target="_blank">
-          <span class="icon-letter">in</span>
+        <a class="icon-btn" href="https://www.linkedin.com/in/chaimaa-farhane-850b44365/" target="_blank" title=" mon linkedin">
+          <span class="icon-letter" >in</span>
         </a>
-        <a class="icon-btn" href="#" target="_blank">
+        <a class="icon-btn" href="https://github.com/ch0803-dev" target="_blank" title="mon git hub">
           <span class="icon-letter">{ }</span>
         </a>
-        <a class="icon-btn" href="#" target="_blank">
+        <a class="icon-btn" href="chaimaa farhane 2005 4.pdf" target="_blank" title=" mon cv">
           <span class="icon-letter">cv</span>
         </a>
       </div>
@@ -155,7 +155,7 @@
 
       <a class="project-item" href="#p3">
         <div class="project-item-title">Insured management</div>
-        <p class="project-item-text">Dashboard UI.</p>
+        <p class="project-item-text">Dashboard UI</p>
         <div class="project-item-tags">
           <span>HTML</span><span>CSS</span><span>JAVA</span>
         </div>
@@ -164,11 +164,11 @@
     </div>
 
     <div class="project-preview">
-      <img src="giphy.gif" id="default-preview" />
+      
 
-      <img src="Screenshot1.png" class="preview" id="p1" />
-      <img src="Screenshot2.png" class="preview" id="p2" />
-      <img src="Screenshot3.png" class="preview" id="p3" />
+      <img src="Screenshot 2025-11-22 142251.png" class="preview" id="p1" />
+      <img src="Screenshot 2025-11-22 151244.png" class="preview" id="p2" />
+      <img src="   Capture d'écran 2025-03-21 132918.png" class="preview" id="p3" />
     </div>
   </div>
 </section>
@@ -176,27 +176,35 @@
 <section class="wrap" id="contact">
   <h2>Contact</h2>
 
-  <form class="contact-form">
+  <form
+    class="contact-form"
+    action="https://formspree.io/f/xnnervnn"
+    method="POST"
+  >
     <div class="row">
       <label>Last Name</label>
-      <input type="text" required />
+      <input type="text" name="lastname" required>
     </div>
 
     <div class="row">
       <label>Email</label>
-      <input type="email" required />
+      <input type="email" name="email" required>
     </div>
 
     <div class="row">
       <label>Message</label>
-      <textarea rows="4" required></textarea>
+      <textarea name="message" rows="4" required></textarea>
     </div>
+
+   
+    <input type="hidden" name="_subject" value="Nouveau message depuis le site">
 
     <div class="actions">
       <button type="submit" class="btn">Send</button>
     </div>
   </form>
 </section>
+
 
 </main>
 

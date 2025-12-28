@@ -113,7 +113,7 @@ body{
 }
 
 .icon-btn:hover{
-  transform:translateY(-2px) scale(1.04);
+  transform:translateY(-2px) ;
   background:var(--primary);border-color:var(--primary-dark);
 }
 
@@ -262,6 +262,15 @@ body{
 
 .footer{
   text-align:center;padding:2rem;font-size:.85rem;color:#9ca3af
+}
+.success-msg {
+  display: none;
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
+#success:target {
+  display: block;
 }
 
 @keyframes fadeUpHero{
