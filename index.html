@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Chaimaa Farhane - Développeuse Full-Stack">
+  <meta name="author" content="Chaimaa Farhane">
+  
   <title>Portfolio Chaimaa Farhane</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
+<div class="intro-loader" id="introLoader">
+  <div class="intro-content">
+    <div class="logo-intro">
+      <div class="letter-container">
+        <span class="letter" style="--i:0">C</span>
+        <span class="letter" style="--i:1">h</span>
+        <span class="letter" style="--i:2">a</span>
+        <span class="letter" style="--i:3">i</span>
+        <span class="letter" style="--i:4">m</span>
+        <span class="letter" style="--i:5">a</span>
+        <span class="letter" style="--i:6">a</span>
+      </div>
+      <div class="subtitle-intro">Full-Stack Developer</div>
+    </div>
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+    <div class="particles-intro">
+      <div class="particle" style="--x:20%; --y:30%; --delay:0s"></div>
+      <div class="particle" style="--x:80%; --y:60%; --delay:0.5s"></div>
+      <div class="particle" style="--x:50%; --y:20%; --delay:1s"></div>
+      <div class="particle" style="--x:70%; --y:80%; --delay:0.3s"></div>
+      <div class="particle" style="--x:30%; --y:70%; --delay:0.8s"></div>
+      <div class="particle" style="--x:90%; --y:40%; --delay:0.2s"></div>
+    </div>
+  </div>
+</div>
+
+<div class="main-site" id="mainSite">
 
 <header class="headar">
   <div class="logo-block">
     <span class="logo-text">Chaimaa Farhane</span>
   </div>
-
-<header class="headar">
-  <div class="logo-block">
-    <span class="logo-text">Chaimaa Farhane</span>
-  </div>
-
 
   <div class="menu-icon" id="menu-icon">
     <span></span>
@@ -27,40 +54,38 @@
   </div>
 
   <nav class="lien" id="menu">
-    <a href="#home">HOME</a>
-    <a href="#about">ABOUT</a>
-    <a href="#skills">SKILLS</a>
-    <a href="#projects">PROJECTS</a>
+    <a href="#home">ACCUEIL</a>
+    <a href="#about">À PROPOS</a>
+    <a href="#skills">COMPÉTENCES</a>
+    <a href="#projects">PROJETS</a>
     <a href="#contact">CONTACT</a>
   </nav>
 </header>
-
 
 <main>
 
 <section class="p1" id="home">
   <div class="p4">
-    <span class="title">Bachelor’s Degree in Software Development</span>
+    <span class="title">Licence en Développement Informatique</span>
     <h1 class="hero-name">Chaimaa Farhane</h1>
     <p>
-      I am a software development student focused on front-end and back-end.
-      I work with HTML, CSS, JavaScript, React, Laravel, PHP and SQL.
+      Je suis une étudiante en développement informatique, spécialisée en front-end et back-end. Je travaille avec HTML, CSS, JavaScript, React, Laravel, PHP et SQL.
     </p>
 
     <div class="p6">
-      <a href="#contact" class="btn bt-alt">Contact me</a>
+      <a href="#contact" class="btn bt-alt">Me contacter</a>
     </div>
 
     <div class="social-wrapper">
-      <p class="social-label" >Find me</p>
+      <p class="social-label" >Retrouvez-moi</p>
       <div class="social-icons">
-        <a class="icon-btn" href="https://www.linkedin.com/in/chaimaa-farhane-850b44365/" target="_blank" title=" mon linkedin">
+        <a class="icon-btn" href="https://www.linkedin.com/in/chaimaa-farhane-850b44365/" target="_blank" title="mon linkedin">
           <span class="icon-letter" >in</span>
         </a>
         <a class="icon-btn" href="https://github.com/ch0803-dev" target="_blank" title="mon git hub">
           <span class="icon-letter">{ }</span>
         </a>
-        <a class="icon-btn" href="chaimaa farhane 2005 4.pdf" target="_blank" title=" mon cv">
+        <a class="icon-btn" href="chaimaa farhane 2005 4.pdf" target="_blank" title="mon cv">
           <span class="icon-letter">cv</span>
         </a>
       </div>
@@ -68,56 +93,58 @@
   </div>
 
   <div class="p1-image-container">
-    <div class="hero-image-ring">
-      <div class="hero-glow"></div>
-      <img src="ww.jpeg" alt="Chaimaa Farhane" />
-    </div>
+    <a  class="hero-image-link">
+      <div class="hero-image-ring">
+        <div class="hero-glow"></div>
+        <img src="WhatsApp Image 2026-01-14 at 23.21.55.jpeg" alt="Chaimaa Farhane" />
+      </div>
+    </a>
   </div>
 </section>
 
 <section class="wrap wrap-about" id="about">
-  <h2>About me</h2>
+  <h2>À propos de moi</h2>
 
   <div class="about-grid">
     <div class="about-main">
       <p>
-        I live in Casablanca and I am building a full-stack developer profile.
-        I like clean code and real functional projects.
+        J'habite à Casablanca et je construis un profil de développeuse full-stack.
+        J'aime le code propre et les projets fonctionnels réels.
       </p>
 
       <p>
         Front-end: HTML, CSS, JS, React  
         Back-end: PHP, Laravel  
-        Database: SQL basics
+        Base de données: SQL basique
       </p>
 
       <div class="about-highlight">
-        <span class="about-tag">Full-stack in progress</span>
+        <span class="about-tag">Full-stack en cours</span>
         <span class="about-pill">Front-end · Back-end · SQL</span>
       </div>
     </div>
 
     <div class="about-cards">
       <div class="about-card">
-        <span class="about-card-label">Currently</span>
-        <p>Bachelor’s degree + real projects.</p>
+        <span class="about-card-label">Actuellement</span>
+        <p>Licence + projets réels.</p>
       </div>
 
       <div class="about-card">
-        <span class="about-card-label">Tech focus</span>
+        <span class="about-card-label">Focus technique</span>
         <p>React, Laravel, PHP, SQL.</p>
       </div>
 
       <div class="about-card">
-        <span class="about-card-label">Next step</span>
-        <p>Build full apps with auth and better structure.</p>
+        <span class="about-card-label">Prochaine étape</span>
+        <p>Créer des sites web complètes avec authentification et une meilleure structure.</p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="wrap" id="skills">
-  <h2>Skills</h2>
+  <h2>Compétences</h2>
 
   <div class="skills-grid">
     <div class="product-card">
@@ -132,44 +159,44 @@
     <div class="product-card">
       <div class="thumb"></div>
       <h3>Back-end</h3>
-      <p>Laravel basics, PHP logic.</p>
+      <p>Bases Laravel, logique PHP.</p>
       <div class="skill-tags"><span>PHP</span><span>Laravel</span></div>
     </div>
 
     <div class="product-card">
       <div class="thumb"></div>
-      <h3>Database</h3>
-      <p>Basic SQL queries</p>
+      <h3>Base de données</h3>
+      <p>Requêtes SQL basiques</p>
       <div class="skill-tags"><span>SQL</span></div>
     </div>
   </div>
 </section>
 
 <section class="wrap" id="projects">
-  <h2>Projects</h2>
+  <h2>Projets</h2>
 
   <div class="projects-layout">
     <div class="projects-list">
 
       <a class="project-item" href="#p1">
-        <div class="project-item-title">Personal portfolio</div>
-        <p class="project-item-text">Responsive one-page portfolio.</p>
+        <div class="project-item-title">Portfolio personnel</div>
+        <p class="project-item-text">Portfolio responsive en une page.</p>
         <div class="project-item-tags">
           <span>HTML</span><span>CSS</span><span>JS</span>
         </div>
       </a>
 
       <a class="project-item" href="#p2">
-        <div class="project-item-title">Mini-market mockup</div>
-        <p class="project-item-text">Simple e-commerce interface.</p>
+        <div class="project-item-title">Maquette mini-marché</div>
+        <p class="project-item-text">Interface e-commerce simple.</p>
         <div class="project-item-tags">
           <span>HTML</span><span>CSS</span>
         </div>
       </a>
 
       <a class="project-item" href="#p3">
-        <div class="project-item-title">Insured management</div>
-        <p class="project-item-text">Dashboard UI</p>
+        <div class="project-item-title">Gestion d'assurance</div>
+        <p class="project-item-text">Interface tableau de bord</p>
         <div class="project-item-tags">
           <span>HTML</span><span>CSS</span><span>JAVA</span>
         </div>
@@ -178,11 +205,10 @@
     </div>
 
     <div class="project-preview">
-      
-
-      <img src="Screenshot 2025-11-22 142251.png" class="preview" id="p1" />
-      <img src="Screenshot 2025-11-22 151244.png" class="preview" id="p2" />
-      <img src="   Capture d'écran 2025-03-21 132918.png" class="preview" id="p3" />
+      <img src="giphy.gif" class="preview" id="default-preview" alt="Bienvenue" />
+      <img src="Screenshot 2025-11-22 142251.png" class="preview" id="p1" alt="Portfolio personnel" />
+      <img src="Screenshot 2025-11-22 151244.png" class="preview" id="p2" alt="Maquette mini-marché" />
+      <img src="Capture d'écran 2025-03-21 132918.png" class="preview" id="p3" alt="Gestion d'assurance" />
     </div>
   </div>
 </section>
@@ -196,7 +222,7 @@
     method="POST"
   >
     <div class="row">
-      <label>Last Name</label>
+      <label>Nom</label>
       <input type="text" name="lastname" required>
     </div>
 
@@ -210,15 +236,39 @@
       <textarea name="message" rows="4" required></textarea>
     </div>
 
-   
+    
     <input type="hidden" name="_subject" value="Nouveau message depuis le site">
 
     <div class="actions">
-      <button type="submit" class="btn">Send</button>
+      <button type="submit" class="btn">Envoyer</button>
     </div>
   </form>
 </section>
 
+<section class="wrap thank-you-section">
+  <div class="letter-envelope" id="letterEnvelope">
+    <div class="envelope-front">
+      <div class="envelope-flap"></div>
+      <div class="envelope-seal"></div>
+      <p class="envelope-text">Cliquez pour ouvrir</p>
+    </div>
+  </div>
+  
+  <div class="letter-content" id="letterContent">
+    <div class="letter-paper">
+      <div class="letter-timer">
+        <span class="timer-icon">⏱️</span>
+        <span id="timerCountdown">25</span>s
+      </div>
+      <h3>Merci d'avoir visité mon portfolio ! ✨</h3>
+      <p>Cher visiteur,</p>
+      <p>Je vous remercie sincèrement d'avoir pris le temps de découvrir mon travail et mes projets. Votre visite compte beaucoup pour moi !</p>
+      <p>Si vous avez aimé ce que vous avez vu, n'hésitez pas à  me contacter. Je serais ravie d'échanger avec vous sur de futurs projets ou collaborations.</p>
+      <strong>Chaimaa Farhane</strong></p>
+      <button class="close-letter" onclick="closeLetter()">Fermer ❌</button>
+    </div>
+  </div>
+</section>
 
 </main>
 
@@ -226,5 +276,8 @@
   <p>© 2025 Chaimaa Farhane</p>
 </footer>
 
+</div>
+
+
 </body>
-</html>
+</html>       
