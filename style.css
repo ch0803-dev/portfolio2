@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  z-index: 30;
+  z-index: 10;
 }
 
 .menu-icon span {
@@ -71,7 +71,7 @@ body {
   .menu-icon {
     display: flex;
     position: relative;
-    z-index: 1000;
+    z-index: 50;
   }
 
   .lien {
@@ -87,7 +87,7 @@ body {
     gap: 2rem;
     padding: 2rem;
     transition: right 0.3s ease;
-    z-index: 999;
+    z-index: 40;
   }
 
   .lien.active {
@@ -117,7 +117,7 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease;
-    z-index: 998;
+    z-index: 30;
     pointer-events: none;
   }
 
@@ -547,7 +547,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 100;
   transition: opacity 0.8s ease, transform 0.8s ease;
   overflow: hidden;
 }
@@ -825,7 +825,7 @@ body {
   max-width: 600px;
   max-height: 80vh;
   overflow-y: auto;
-  z-index: 1001;
+  z-index: 60;
   opacity: 0;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   pointer-events: none;
